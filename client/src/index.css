@@ -1,0 +1,339 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 90%;
+  width: 1200px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logoutButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: darkred;
+}
+
+.addItem {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.addItem:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.editButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 15px;
+}
+
+.editButton:hover {
+  background-color: #45a049;
+}
+
+.viewButton {
+  background-color: #2196f3;
+  color: white;
+  padding: 5px 15px;
+}
+
+.viewButton:hover {
+  background-color: #1976d2;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 15px;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+
+  .addItem,
+  button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  th,
+  td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .addItem,
+  button {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+}
+/*view*/
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+.view-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+}
+.view-back {
+  padding: 15px;
+  background-color: #0056b3;
+  color: white;
+}
+.view-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.view-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.view-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.view-value {
+  margin-left: 5px;
+  color: #666;
+}
+
+.view-info {
+  margin-top: 15px;
+}
+
+.view-heading {
+  font-size: 24px;
+  color: #333;
+}
+
+.view-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.view-link:hover {
+  color: #0056b3;
+}
+/* styles.css */
+
+.addcontact-container {
+  max-width: 500px;
+  margin: 120px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.addcontact-heading {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addcontact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addcontact-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.addcontact-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.addcontact-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addcontact-button:hover {
+  background-color: #0056b3;
+}
+
+.addcontact-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.addcontact-link p {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.addcontact-link p:hover {
+  color: #0056b3;
+}
+/* styles.css */
+
+.updatecontact-container {
+  max-width: 500px;
+  margin: 129px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.updatecontact-heading {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.updatecontact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.updatecontact-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.updatecontact-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.updatecontact-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.updatecontact-button:hover {
+  background-color: #0056b3;
+}
+
+.updatecontact-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.updatecontact-link p {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.updatecontact-link p:hover {
+  color: #0056b3;
+}
